@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+.child{
+	width:100px;
+	height:100px;
+	background-color:orange;
+	border:1px solid red;
+	margin:20px;
+}
+
+.holder{
+	display:flex;
+	flex-wrap:wrap;
+	gap:20px;
+}
+
+.item{
+	display:flex;
+	justify-content:space-between;
+}
